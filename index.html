@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+    <style>
+        tm-container {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+.tm-row { display: flex; }
+
+.tm-col-left {
+    width: 50%;
+    height: 100%;
+    padding-left: 40px;  
+    padding-right: 40px;
+}
+
+.tm-col-right {
+    width: 50%;
+    height: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.tm-content {
+    max-width: 660px;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+
+        .column {
+  float: left;
+  width: 25%;
+}
+.row {
+  margin: 8px -16px;
+}
+.content {
+  background-color: white;
+  padding: 10px;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+* {
+  box-sizing: border-box;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  width: 100%;
+  
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+
+  
+  flex-wrap: wrap;
+}
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+           
+                <div class="header"> 
+                   
+                <img src="/Images/Kerala_God's_Own_Country_Logo.svg">
+                </div>
+            
+                
+            <div class="test">
+            
+                <ul style="width: 50%;display: flex; justify-content:space-evenly; list-style: none;">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#" class="active">District</a></li>
+                    <li><a href="#" class="active">About Us</a></li>
+                </ul>
+                <ul style="width: 50%;display: flex;list-style: none;">
+                   <li><button>Login</button></li> 
+                  <li><button>Sign Up</button></li>  
+                   
+                </ul>
+         
+        </div>
+       
+        </header>
+        <section>
+            <h1>COME AND ENJOY OUR CULTURE</h1>
+            <a href="#">Learn More</a>
+            <a href="#">Contact</a>
+        </section>
+    </main>
+    <section>
+        <h1>Top Destinations</h1>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+
+               
+        <article>
+            <img src="./Images/alleppey-tourist-places-to-visit-in-kerala.jpg" alt="alleppey-tourist-places-to-visit-in-kerala" style="height: 200px; width: 200px; border: 2px;">
+        </article>
+    </div>
+</div>
+
+    <div class="column">
+        <div class="content">
+        <article>
+            <img src="./Images/athirapally-waterfall-places-to-visit-in-kerala.jpg" alt="athirapally-waterfall-places-to-visit-in-kerala" style="height: 200px;width: 200px;border: 2px;">
+        </article>
+    </div>
+    </div>
+</div>
+
+</section>
+<div class="row">
+    <div class="column">
+        <div class="content">
+        <article>
+            <img src="./Images/munnar-hillstation-places-to-visit-in-kerala.jpg" alt="munnar-hillstation-places-to-visit-in-kerala" style="height: 200px;width: 200px;border: 2px;">
+            
+        </article>
+    </div>
+    </div>
+  
+        <div class="column">
+            <div class="content">
+
+        <article>
+            <img src="./Images/vagamon-the-green-grass-place-to-visit-in-kerala.jpg" alt="vagamon-the-green-grass-place-to-visit-in-kerala" style="height: 200px;width: 200px;border: 2px;">
+        </article>
+        </div>
+    </div>
+</div>
+</div>
+    </section>
+    <hr>
+    <section>
+        <center>
+        <h1>About Kerala</h1>
+    </center>
+        <!-- kerala map image -->
+        <img src="" alt="">
+        <p>Kerala Information</p>
+    </section>
+    <section>
+        <center>
+
+        </center>
+        <h1>Our District</h1>
+        <ol>
+            <li><a href="#">Kozhikode</a></li>
+
+        </ol>
+    </section>
+    <form action="">
+        <label for="">Name</label>
+        <input type="text" name="" id="">
+        <label for="">Name</label>
+        <input type="text" name="" id="">
+        <label for="">Name</label>
+        <input type="text" name="" id="">
+        <select name="District" id="">
+            <option value="">Thiruvananthapuram</option>
+            <option value="">Kollam</option>
+            <option value="">Pathanamthitta</option>
+            <option value="">Kottayam</option>
+            <option value="">Idukki</option>
+            <option value="">Ernakulam</option>
+            <option value="">Thrissur</option>
+            <option value="">Palakkad</option>
+            <option value="">Malappuram</option>
+            <option value="">Wayanad</option>
+            <option value="">Kannur</option>
+            <option value="">Kasaragod</option>
+            <option value="">Kozhikode</option>
+
+        </select>
+        <button>Submit</button>
+    </form>
+    <footer>
+        
+    </footer>
+</body>
+</html>
